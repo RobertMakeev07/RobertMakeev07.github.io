@@ -1,0 +1,6 @@
+.div-translate {
+  display: flex;
+  justify-content: flex-end;
+  /* padding: 0.5em; */
+  max-width: 99%;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE HTML>
+<html ng-app="roberthrihoryanPersonalWebsite">
+    
+    <head>
+        
+        <!-------------------------------- META -------------------------------->
+        
+        <meta charset="utf-8" />
+        <meta name="keywords" content="robert, hrihoryan, roberthrihoryan, hrihoryanrobert" />
+        <meta name="description" content="Robert Hrihoryan's Personal Website" />
+        <meta name="author" content="Robert Hrihoryan" />
+        
+        
+        
+        <title> Robert Hrihoryan | Web & App Developer </title>
+        
+        
+        
+        <!-------------------------------- LINK -------------------------------->
+        
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+        
+        <link href="app/site.css" rel="stylesheet" />
+        <link rel="stylesheet" href="./app/translate/style.css">
+        
+        <link href="res/images/images.css" rel="stylesheet" />
+        
+        <link href="res/images/robertmakeev.png" rel="icon" type="image/ico" />
+    </head>
+    
+    <body>
+        
+        <div class="div-translate" id="google_translate_element"></div>
+        
+        <sidebar> </sidebar>
+    <site-header> </site-header>
+    <div ng-view class="content col-md-9"></div>
+</div>
+<site-footer> </site-footer>
+
+
+
+<!-------------------------------- SCRIPT -------------------------------->
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.min.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
+    integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
+    crossorigin="anonymous"></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+
+        <script  src="./app/translate/script.js"></script>
+        <script src="app/app.js"></script>
+        <script src="app/home/home.js"></script>
+        <script src="app/contact/contact.js"></script>
+        <!--     This two below are new improvises! -->
+        <!-- <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+        <div class="elfsight-app-c9dcca1b-72ab-454f-98f2-a2398d1cef03"></div>-->
+        <script src="https://code.responsivevoice.org/responsivevoice.js?key=RpHhrBwd"></script>
+        <!--     This two above are new improvises! -->
+        
+        <script src="app/work/work.js"></script>
+        <script src="app/about/about.js"></script>
+        <script src="app/sources/source.js"></script>
+        <script src="app/business cards/businesscards.js"></script>
+        <script src="app/error/error.js"></script>
+        
+        <script src="app/common/sidebar.js"></script>
+        <script src="app/common/site_header.js"></script>
+        <script src="app/common/site_footer.js"></script>
+        
+        
+        
+        <!-------------------------------- Translate -------------------------------->
+        
+        <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.HORIZONTAL}, 'google_translate_element');
+        }
+        </script>
+        
+        <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+        <script type="text/javascript">
+            setInterval ( "loop()", 1500);
+            function loop () {
+            setTimeout(function() {
+            console.clear();
+        });
+    };
+        </script>
+</body>
+
+</html>

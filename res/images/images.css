@@ -1,0 +1,59 @@
+.profile-picture{
+	width: 15em;
+	height: 16em; 
+	background-size:cover;
+    background-repeat:no-repeat;
+}
+.profile-picture-1{
+	background-image:url('roberthrihoryan-profile-picture.jpg');
+}
+
+.icon{
+	height: 6em; 
+	width: 6em;
+	background-size:cover;
+    background-repeat:no-repeat;
+}
+.icon-large{
+	height: 12em; 
+	width: 12em;
+	background-size:cover;
+    background-repeat:no-repeat;
+}
+
+.icon-facebook {
+	background-image:url('icon-facebook.png');
+}
+.icon-instagram {
+	background-image:url('icon-instagram.png')
+}
+.icon-twitter {
+	background-image:url('icon-twitter.png');
+}
+.icon-snapchat {
+	background-image:url('icon-snapchat.png');
+}
+.icon-youtube {
+	background-image:url('icon-youtube.png');
+}
+.icon-linkedin {
+	background-image:url('icon-linkedin.png');
+}
+.icon-github {
+	background-image:url('icon-github.png');
+}
+.icon-codepen {
+	background-image:url('icon-codepen.png');
+}
+.icon-stackoverflow {
+	background-image:url('icon-stackoverflow.png');
+}
+.icon-quora {
+	background-image:url('icon-quora.png');
+}
+.icon-pinterest {
+	background-image:url('icon-pinterest.png');
+}
+.icon-404{
+	background-image:url('icon-404.png');
+}
